@@ -24,11 +24,4 @@ class ComponentMange {
 
 const componentMange = new ComponentMange()
 
-export default {
-  install(app: App) {
-    app.config.globalProperties.$componentMange = componentMange
-  }
-}
-export {
-  componentMange
-}
+export default componentMange

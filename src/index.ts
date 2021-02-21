@@ -1,5 +1,4 @@
 import rightClickMenu from './rightClickMenu'
-
-export {
-  rightClickMenu
-}
+import componentMange from './rightClickMenu/componentMange';
+export {componentMange}
+export default rightClickMenu

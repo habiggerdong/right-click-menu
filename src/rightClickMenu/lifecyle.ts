@@ -1,6 +1,6 @@
 
 import { start, remove } from './rightClick'
-import { componentMange } from './componentMange'
+import  componentMange  from './componentMange'
 import FileUploadGlobal from './rightMenu/FileUploadGlobal.vue'
 import FileOpera from './rightMenu/FileOpera.vue'
 componentMange.register('FileUploadGlobal', FileUploadGlobal)

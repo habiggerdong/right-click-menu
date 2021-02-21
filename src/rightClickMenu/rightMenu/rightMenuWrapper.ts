@@ -1,5 +1,5 @@
 import { defineComponent, h } from 'vue'
-import { componentMange } from '../componentMange'
+import  componentMange  from '../componentMange'
 export default defineComponent({
   props: {
     componentName: {

@@ -18,7 +18,7 @@ export default defineComponent({
 });
 </script>
 
-<style lang="less" scoped>
+<style lang="css" scoped>
 .file_opera {
   background: #fff;
 }

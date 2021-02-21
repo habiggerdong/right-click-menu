@@ -5,6 +5,7 @@ type rightClickMenu = {
   installed: boolean,
   install: (app: App) => void
 }
+
 const rightClickMenu: rightClickMenu = {
   installed: false, install: function (app: App) {
     if (rightClickMenu.installed) {
